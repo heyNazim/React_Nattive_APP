@@ -5,14 +5,15 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, on
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB44m4uoLe8IRUglhjZtOAYzQcdrk8UkoI",
-  authDomain: "bissgro-e9b77.firebaseapp.com",
-  projectId: "bissgro-e9b77",
-  storageBucket: "bissgro-e9b77.appspot.com",
-  messagingSenderId: "516194661520",
-  appId: "1:516194661520:web:0a8ba261ae666ff31c9415",
-  measurementId: "G-JQP0PWLB3G"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID" // Optional
 };
+
 
 const app = initializeApp(firebaseConfig);
 
